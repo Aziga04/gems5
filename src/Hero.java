@@ -1,14 +1,15 @@
 public class Hero {
-    private int health;
-    private int damage;
-    private int power;
+    int health;
+     int damage;
+
+     String superAbility;
 
     public Hero(){}
 
-    public Hero(int health,int damage,int power){
+    public Hero(int health,int damage,String superAbility){
         this.health = health;
         this.damage = damage;
-        this.power = power;
+        this.superAbility = superAbility;
     }
     public Hero(int health,int damage){
         this.health = health;
@@ -23,7 +24,9 @@ public class Hero {
         return damage;
     }
 
-    public int getPower() {
-        return power;
+
+
+    public String getSuperAbility() {
+        return superAbility;
     }
 }

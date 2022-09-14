@@ -1,7 +1,7 @@
 public class Boss {
     int health;
     int damage;
-    int defence;
+    String protestion;
 
     public int getHealth() {
         return health;
@@ -18,11 +18,11 @@ public class Boss {
         this.damage = damage;
     }
 
-    public int getDefence(){
-        return defence;
+    public String getProtestion(String mag){
+        return protestion;
     }
-    public void setDefence(int i){
-        this.defence = defence;
+    public void setDefence(String protestion){
+        this.protestion = protestion;
 
     }
 }
